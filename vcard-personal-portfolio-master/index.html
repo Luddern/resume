@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>個人網站簡介</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/101063118 .jpg" alt="Ludde" width="80" height="200">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ludde">盧德遠</h1>
+
+          <p class="title">Front-end Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:t66220092@gmail.com" class="contact-link">t66220092@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+8860933159665" class="contact-link">0933159665</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">February 14, 1994</time>
+            </div>
+
+          </li>
+
+
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            親愛的招聘者：
+
+            您好，我是一名熱愛前端開發的新手工程師，我擁有編程的基礎知識和對前端技術的熱情。在我的求學和工作過程中，我學習了 HTML、CSS、JavaScript，並熟悉Vue、jQuery
+            等常用的前端框架和庫。
+            <br>
+            作為一位教師，我擅長設計獨特的課程，並運用最新的教學技術和教材來支持學生的學習。這些技能也讓我能夠輕鬆轉換到前端開發領域，並應用我的創造力和問題解決能力來開發具有優秀用戶體驗的網站和應用程式。
+            <br>
+            我曾在學校裡學習前端基礎知識，並通過學校的項目實踐，熟悉了前端開發的基本流程和工具。我還通過在線課程和自學，進一步拓展了自己的知識面，例如學習了 React 和 Vue 框架，並使用它們來開發過一些小型網頁應用。
+            <br>
+            同時我也有一群在寫前後端的同儕，遇到編碼的問題時大家會一起討論以及想出解決的方案，利用腦力激盪的方式讓這團體更進一步的去解決問題。
+            <br>
+            我認為一個好的前端開發者需要不斷學習和探索，緊跟技術的發展，並注重用戶體驗和代碼質量。我擅長與人合作，喜歡在團隊中分享我的想法和經驗，並與他人一起攻克難題。
+            <br>
+            如果給我這個機會，我會全力以赴，不斷學習和進步，為貴公司的發展貢獻自己的力量。謝謝您花時間閱讀我的自傳，期待與您進一步交流。
+          </p>
+
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">網頁刻板設計</h4>
+
+                <p class="service-item-text">
+                  讓網頁使用者有舒適以及順暢的體驗
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">網頁讀取速度優化</h4>
+
+                <p class="service-item-text">
+                  將圖像、資源最佳化。使用CDN加速讀取。
+                </p>
+              </div>
+
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            
+          </section>
+
+        </div>
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">亞洲大學 (資訊傳播學系)</h4>
+              </h4>
+
+              <span>2014 — 2018</span>
+
+              <p class="timeline-text">
+                在學期間主要學習程式設計(C++)、行銷管理、影片製作流程，懂得使用Adobe Premium剪輯影片 。
+              </p>
+
+            </li>
+            
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">美語教師(長頸鹿美語)</h4>
+              
+
+              <span>2018 — 2023</span>
+
+              <p class="timeline-text">
+                我是一位熱情、專業的資深美語教師，有5年的教學經驗，多項教學相關認證。
+
+                作為一位教師，我相信學生的學習體驗和成長是最重要的。因此，我一直努力通過創新的教學方法、個性化的學習計劃和友好的師生互動來激發學生的學習熱情，提高他們的自信心和學術成就。
+
+                有帶領學生參加公司所舉辦的全國性考試，幫助他們獲取不少前3名的獎狀。
+
+                我擅長為不同年齡和水平的學生設計獨特的課程，包括英語會話、閱讀、寫作、聽力、文化和商業英語等方面。我還能夠運用最新的教學技術和教材來支持學生的學習，例如使用線上教學平台和多媒體教材。
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Art director</h4>
+
+              <span>2013 — 2015</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li> -->
+
+           
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Vue.js</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>JavaScript</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>vue.js</button>
+            </li>
+<!-- 
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li> -->
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>JavaScript</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>vue.js</button>
+              </li>
+
+              <!-- <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li> -->
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/create grid.png" alt="grid" loading="lazy" style="height: 180px;">
+                </figure>
+
+                <h3 class="project-title">Create grid paint</h3>
+
+                <p class="project-category">JavaScript</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Translator Api.png" alt="translator" loading="lazy" style="height: 120%;">
+                </figure>
+
+                <h3 class="project-title">Translator Api</h3>
+
+                <p class="project-category">JavaScript</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Budget Calculator.png" alt="Budget" loading="lazy" style="height: 180px;">
+                </figure>
+
+                <h3 class="project-title">Budget Calculator</h3>
+
+                <p class="project-category">JavaScript</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="JavaScript">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/guess word game.png" alt="Guess" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Guess Word Game</h3>
+
+                <p class="project-category">JavaScript</p>
+
+              </a>
+            </li>
+
+            <!-- <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--
+    - custom js link
+  -->
+      <script src="./assets/js/script.js"></script>
+
+      <!--
+    - ionicon link
+  -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
